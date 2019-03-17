@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BoG</title>
+
+    <SCRIPT language="javascript">
+        function log() {
+
+            var logs = ["user", "pass", "Jan", "Kowalski"];
+            var log = document.getElementById("login").value;
+            var pass = document.getElementById("pass").value;
+
+            if(log == logs[0] && pass == logs[1]){
+                document.myForm.submit();
+            }
+            else if(log=="" && pass ==""){
+                alert("żadne pole nie może być puste");
+                return;
+            }
+            else if(log ==""){
+                alert("Pole \"Login\" nie może być puste");
+                return;
+            }
+
+            else if(pass ==""){
+                alert("Pole \"Hasło\" nie może być puste");
+                return;
+            }else{
+                alert("Błędne dane logowania");
+                document.myForm.reset();
+            }
+
+
+        }
+    </SCRIPT>
+</head>
+<body>
+<form name="myForm" action="bog"  method="post"  >
+    Login: <input type="text", id="login">
+    <br/>
+    Hasło: <input type="password", id="pass">
+    <br/>
+    <input type="button" value="Zaloguj" onclick="log()">
+</form>
+</body>
+</html>

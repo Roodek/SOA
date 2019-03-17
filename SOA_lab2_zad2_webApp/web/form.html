@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unlimited numbers</title>
+    <SCRIPT language="javascript">
+        function add() {
+            var age = document.getElementById("age").value;
+            var foo = document.getElementById("fooBar");
+            var foo2 = document.getElementById("fooBar2");
+            var butt = document.getElementById("next");
+            if(age >= 18) {
+                var element = document.createElement("input");
+                var sub = document.createElement("input");
+                sub.setAttribute("type", "submit");
+                sub.setAttribute("value", "Szukaj");
+                element.setAttribute("type", "text");
+                element.setAttribute("name", "kolor");
+
+                foo.appendChild(document.createTextNode("Podaj interesujący cię kolor piwa(jasne, ciemne):"));
+                foo2.appendChild(element);
+                foo2.appendChild(sub);
+                butt.parentNode.removeChild(butt);
+            }else {
+                var deny = document.createTextNode("Trochę za wcześnie...");
+                foo.appendChild(deny);
+                butt.parentNode.removeChild(butt);
+
+            }
+        }
+    </SCRIPT>
+</head>
+
+<body>
+<h1>Doradca piwny</h1>
+
+<FORM action="getBeer" method="post">
+    <p>Podaj swój wiek:<input type="number", id="age" > </p>
+
+    <BR/>
+
+    <INPUT type="button" id = "next" value="Dalej" onclick="add()"/>
+
+    <span id="fooBar">&nbsp;</span>
+    <br/>
+    <span id="fooBar2">&nbsp;</span>
+
+</FORM>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unlimited numbers</title>
+    <SCRIPT language="javascript">
+        function add(type) {
+
+            //Create an input type dynamically.
+            var element = document.createElement("input");
+            //Assign different attributes to the element.
+            element.setAttribute("type", type);
+            element.setAttribute("name", type);
+
+
+            var foo = document.getElementById("fooBar");
+
+            //Append the element in page (in span).
+            foo.appendChild(element);
+
+        }
+    </SCRIPT>
+</head>
+<body>
+
+    <H2>dodawaj pola dynamicznie</H2>
+
+<FORM action="checknum" method="post">
+    <SELECT name="element">
+        <OPTION value="text">Text</OPTION>
+    </SELECT>
+
+    <BR/>
+
+    <INPUT type="button" value="Add" onclick="add(document.forms[0].element.value)"/>
+
+    <span id="fooBar">&nbsp;</span>
+    <p><input type="submit" value="sprawdź liczby"/></p>
+</FORM>
+</body>
+</html>
