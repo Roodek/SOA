@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+
+</h:head>
+<h:body>
+   <p> Filtruj po :</p>
+   <h:selectOneMenu >
+      <f:selectItem itemValue="brak" itemLabel="brak"/>
+      <f:selectItem itemValue="typ waluty" itemLabel="typ waluty"/>
+      <f:selectItem itemValue="autor" itemLabel="autor"/>
+
+   </h:selectOneMenu>
+
+   <h:commandButton value="Filtruj" action="="></h:commandButton><br/>
+   <br/>
+   <h:dataTable value="#{Books.bookList}" var="book" rules="rows">
+      <f:facet name="header"></f:facet>
+      <f:facet name="footer"></f:facet>
+
+      <h:column>
+         <f:facet name="header">Tytuł</f:facet>
+        #{book.title}
+      </h:column>
+
+      <h:column>
+         <f:facet name="header">Autor</f:facet>
+         #{book.author}
+      </h:column>
+      <h:column>
+         <f:facet name="header">Gatunek</f:facet>
+         #{book.genre}
+      </h:column>
+      <h:column>
+         <f:facet name="header">Cena</f:facet>
+         #{book.price}
+      </h:column>
+      <h:column>
+         <f:facet name="header">Ilość stron</f:facet>
+         #{book.pages}
+      </h:column>
+      <h:column>
+         <f:facet name="header">Waluta</f:facet>
+         #{book.currency}
+      </h:column>
+         <h:column>
+         <f:facet name="header"> Kup</f:facet>
+         <h:commandButton value="dodaj do koszyka" action="="> <f:setPropertyActionListener target="Books.book" value="#{book}"/></h:commandButton>
+         </h:column>
+   </h:dataTable>
+
+</h:body>
+</html>

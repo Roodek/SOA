@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+  <h:head>
+
+  </h:head>
+
+   <h:body>
+        <h:form>
+
+      <h:commandButton value="1" action="#{Losowanie.sprawdz(1)}"></h:commandButton><br/>
+      <h:commandButton value="2" action="#{Losowanie.sprawdz(2)}"></h:commandButton><br/>
+      <h:commandButton value="3" action="#{Losowanie.sprawdz(3)}"></h:commandButton><br/>
+      <h:commandButton value="4" action="#{Losowanie.sprawdz(4)}"></h:commandButton><br/>
+      <h:commandButton value="5" action="#{Losowanie.sprawdz(5)}"></h:commandButton><br/>
+            <p>odwiedziny: #{Losowanie.counter}</p>
+        </h:form>
+   </h:body>
+</html>

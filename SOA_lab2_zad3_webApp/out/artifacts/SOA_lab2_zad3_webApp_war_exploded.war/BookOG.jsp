@@ -31,14 +31,21 @@
             vector = (Vector<String[]>) session.getAttribute("datavector");
         }
         String[] data = {request.getParameter("name"),request.getParameter("email"), request.getParameter("comment")};
-        if(data[0]!=null && data[1]!=null && data[2]!=null)
-        vector.add(data);
 
-        for (String[] i : vector){%>
-            <tr>
-                <td> <%=i[0]+" - " +i[1] %> : <br/> <%=i[2]%> <br/></td>
-            </tr>
-        <%}%>
+
+        %>
+        <%if(data[0]!=null && data[1]!=null && data[2]!=null) {
+            vector.add(data);
+
+        }%>
+        <%
+        if(vector.size()!=0){
+            for (String[] i : vector){%>
+                <tr>
+                   // <td> <%=i[0]+" - " +i[1] %> : <br/> <%=i[2]%> <br/></td>
+                </tr>
+            <%}
+        }%>
 
 
 
