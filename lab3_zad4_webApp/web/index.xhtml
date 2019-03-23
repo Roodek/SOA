@@ -10,23 +10,32 @@
 
 </h:head>
 <h:body>
-   <p> Filtruj po :</p>
-   <h:selectOneMenu >
-      <f:selectItem itemValue="brak" itemLabel="brak"/>
-      <f:selectItem itemValue="typ waluty" itemLabel="typ waluty"/>
-      <f:selectItem itemValue="autor" itemLabel="autor"/>
+   <p> Waluta :</p>
+   <h:form id="curr">
+      <h:selectOneMenu value="#{Books.currency}" >
+         <f:selectItem itemValue="" itemLabel="waluta"/>
+         <f:selectItems value="#{Books.currencies}" />
 
-   </h:selectOneMenu>
+      </h:selectOneMenu>
+      <h:selectOneMenu value="#{Books.genre}" valueChangeListener="#{Books.filterByCurrency()}" >
+         <f:selectItem itemValue="" itemLabel="gatunek"/>
+         <f:selectItems value="#{Books.genres}" />
 
-   <h:commandButton value="Filtruj" action="="></h:commandButton><br/>
+      </h:selectOneMenu>
+      <h:commandButton value="Filtruj" action="#{Books.applyFilters}"></h:commandButton><br/>
+   </h:form>
+
+
+
    <br/>
-   <h:dataTable value="#{Books.bookList}" var="book" rules="rows">
+   <h:form>
+   <h:dataTable value="#{Books.filteredBooks}" var="book" rules="all">
       <f:facet name="header"></f:facet>
       <f:facet name="footer"></f:facet>
 
       <h:column>
          <f:facet name="header">Tytuł</f:facet>
-        #{book.title}
+         #{book.title}
       </h:column>
 
       <h:column>
@@ -39,7 +48,7 @@
       </h:column>
       <h:column>
          <f:facet name="header">Cena</f:facet>
-         #{book.price}
+         #{Books.displayPrice(book)}
       </h:column>
       <h:column>
          <f:facet name="header">Ilość stron</f:facet>
@@ -47,13 +56,18 @@
       </h:column>
       <h:column>
          <f:facet name="header">Waluta</f:facet>
-         #{book.currency}
+         #{Books.displayCurr(book)}
       </h:column>
-         <h:column>
+      <h:column>
          <f:facet name="header"> Kup</f:facet>
-         <h:commandButton value="dodaj do koszyka" action="="> <f:setPropertyActionListener target="Books.book" value="#{book}"/></h:commandButton>
-         </h:column>
-   </h:dataTable>
+         <h:commandButton value="dodaj do koszyka" action="#{Books.buyBook(book)}"> </h:commandButton>
+      </h:column>
 
+   </h:dataTable>
+   </h:form>
+   <h:form>
+   <h:commandButton action="koszyk.xhtml" value="Do Kasy" ></h:commandButton>
+      <h:commandButton value="wyswietl inna walute" action="#{Books.swapDisplayCurr()}"> </h:commandButton>
+   </h:form>
 </h:body>
 </html>

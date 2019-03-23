@@ -1,9 +1,12 @@
 import javax.faces.bean.ManagedBean;
 
 import javax.faces.bean.SessionScoped;
+import javax.faces.context.FacesContext;
+import javax.faces.event.AjaxBehaviorEvent;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Map;
 
 @ManagedBean(name="Books", eager = true)
 @SessionScoped
@@ -12,10 +15,15 @@ public class Books implements Serializable {
     private static final long serialVersionUID = 1L;
     public String title;
     public String author;
-    public String genre;
+    public static String genre;
     public double price;
-    public int pages;
-    public String currency;
+    public static int pages;
+    public static String currency;
+
+    public static boolean displayCurr;
+
+
+    public ArrayList<Book> trolley  = new ArrayList<Book>();
 
     public static final ArrayList<Book> bookList
             = new ArrayList<Book>(Arrays.asList(new Book("Krzyżacy","Henryk Sienkiewicz","Przygodowa", 30,551, "PLN"),
@@ -23,12 +31,76 @@ public class Books implements Serializable {
             new Book("Fahrenheit 451","Ray Bradburry","Science-fiction",8,256,"USD"),
             new Book("Hobbit","J.R.Tolkien","Fantasy",20, 315,"PLN")
     ));
+    public ArrayList<Book> filteredBooks = bookList;
 
+    public  boolean getDisplayCurr(){
+        return this.displayCurr;
+    }
+    public void swapDisplayCurr(){
+        if (displayCurr == true){
+            displayCurr = false;
+        } else{
+            displayCurr= true;
+        }
+    }
 
+    public double displayPrice(Book book){
+        if(book.currency.equals("USD")) {
+            if (displayCurr) {
+                return book.price ;
+            }else{
+                return book.price*3.8;
+            }
+        }else{
+            return book.price;
+        }
+    }
+    public String displayCurr(Book book){
+        if(book.currency.equals("USD")) {
+            if (displayCurr) {
+                return book.currency;
+            } else {
+                return "PLN";
+            }
+        }else{
+            return "PLN";
+        }
+    }
+
+    public double checkout(){
+        double fullPrice =0;
+        for (Book i : trolley){
+            if(i.currency.equals("USD")){
+                fullPrice+=i.price*3.8;
+                continue;
+            }else {
+                fullPrice += i.price;
+            }
+            }
+        return fullPrice;
+    }
     public ArrayList<Book> getBookList() {
         return bookList;
     }
 
+    public void buyBook(Book book){
+        this.trolley.add(book);
+
+    }
+    public ArrayList<String> getGenres(){
+        return new ArrayList<String>(Arrays.asList("Przygodowa", "Obyczajowa", "Science-Fiction","Fantasy"));
+    }
+    public ArrayList<String> getCurrencies(){
+        return new ArrayList<String>(Arrays.asList("PLN", "USD"));
+    }
+
+    public ArrayList<Book> getFilteredBooks() {
+        return filteredBooks;
+    }
+
+    public void setFilteredBooks(ArrayList<Book> filteredBooks) {
+        this.filteredBooks = filteredBooks;
+    }
 
     public ArrayList<Book> filterByAuthor(String author){
         ArrayList<Book> filtered = new ArrayList<Book>()  ;
@@ -40,24 +112,39 @@ public class Books implements Serializable {
         }
         return filtered;
     }
-    public ArrayList<Book> filterByPrice(int bot, int top){
+
+    public void applyFilters(){
+        filteredBooks = bookList;
+        filterByCurrency();
+        filterByGenre();
+    }
+    public void filterByCurrency(){
+        if(this.getCurrency()==null){
+            //filteredBooks = bookList;
+            return;
+        }
         ArrayList<Book> filtered = new ArrayList<Book>()  ;
-        for (Book i:bookList){
-            if (i.price >=bot && i.price <=top ){
+        for (Book i:filteredBooks){
+            if (i.currency.equals(this.getCurrency()) ){
                 filtered.add(i);
             }
         }
-        return  filtered;
+        filteredBooks=filtered;
     }
-    public ArrayList<Book> filterByCurrency(String curr){
+    public void filterByGenre(){
+        if(this.getGenre()==null){
+            //filteredBooks = bookList;
+            return;
+        }
         ArrayList<Book> filtered = new ArrayList<Book>()  ;
-        for (Book i:bookList){
-            if (i.currency.equals(curr) ){
+        for (Book i:filteredBooks){
+            if (i.genre.equals(this.getGenre()) ){
                 filtered.add(i);
             }
         }
-        return  filtered;
+        filteredBooks=filtered;
     }
+
 
     public String getTitle() {
         return title;
@@ -105,5 +192,22 @@ public class Books implements Serializable {
 
     public void setCurrency(String currency) {
         this.currency = currency;
+    }
+
+    public static boolean isDisplayCurr() {
+        return displayCurr;
+    }
+
+    public static void setDisplayCurr(boolean displayCurr) {
+        Books.displayCurr = displayCurr;
+    }
+
+
+    public  ArrayList<Book> getTrolley() {
+        return trolley;
+    }
+
+    public  void setTrolley(ArrayList<Book> trolley) {
+        this.trolley = trolley;
     }
 }

@@ -7,54 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faaa7617-65a7-465c-bdc1-f41bc4c088df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SOA_lab2_zad3_webApp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/.idea/artifacts/SOA_lab3_wstep_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/.idea/libraries/Mojarra_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/SOA_lab3_wstep.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/lib/javax.faces-2.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/out/artifacts/SOA_lab3_wstep_war_exploded.war/Przegrana.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/out/artifacts/SOA_lab3_wstep_war_exploded.war/WEB-INF/classes/Losowanie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/out/artifacts/SOA_lab3_wstep_war_exploded.war/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/out/artifacts/SOA_lab3_wstep_war_exploded.war/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/out/artifacts/SOA_lab3_wstep_war_exploded.war/Wygrana.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/out/artifacts/SOA_lab3_wstep_war_exploded.war/index.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/out/production/SOA_lab3_wstep/Losowanie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/src/Losowanie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/web/Przegrana.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/web/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/web/Wygrana.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_wstep/web/index.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/.idea/artifacts/SOA_lab_3_zad1_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/.idea/libraries/Mojarra_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/SOA_lab_3_zad1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/lib/javax.faces-2.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/src/Losowanie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/1.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/2.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/3.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/4.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/5.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/index.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/trafiony.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab2_zad3_webApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab2_zad3_webApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab2_zad3_webApp/out/artifacts/SOA_lab2_zad3_webApp_war_exploded.war/BookOG.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab2_zad3_webApp/out/artifacts/SOA_lab2_zad3_webApp_war_exploded.war/BookOG.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab2_zad3_webApp/web/BookOG.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab2_zad3_webApp/web/BookOG.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab3_zad4_webApp/.idea/libraries/javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab3_zad4_webApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab3_zad4_webApp/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab3_zad4_webApp/src/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab3_zad4_webApp/src/FilterView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_primefaces_primefaces_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/koszyk.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab_3_zad1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab_3_zad1/out/artifacts/SOA_lab_3_zad1_war_exploded.war/WEB-INF/classes/Losowanie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/out/artifacts/SOA_lab_3_zad1_war_exploded.war/WEB-INF/classes/Losowanie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab_3_zad1/out/artifacts/SOA_lab_3_zad1_war_exploded.war/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/out/artifacts/SOA_lab_3_zad1_war_exploded.war/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab_3_zad1/out/artifacts/SOA_lab_3_zad1_war_exploded.war/trafiony.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/out/artifacts/SOA_lab_3_zad1_war_exploded.war/trafiony.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab_3_zad1/out/production/SOA_lab_3_zad1/Losowanie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/out/production/SOA_lab_3_zad1/Losowanie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab_3_zad1/src/Losowanie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/src/Losowanie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/trafiony.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/trafiony.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3_zad4_webApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab3_zad4_webApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lab3_zad4_webApp_war_exploded.war/WEB-INF/classes/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab3_zad4_webApp_war_exploded.war/WEB-INF/classes/Books.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lab3_zad4_webApp_war_exploded.war/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab3_zad4_webApp_war_exploded.war/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3_zad4_webApp/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_zad4_webApp/Books.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.xhtml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,12 +38,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="160">
+              <caret line="69" column="107" lean-forward="true" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -77,41 +51,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Books.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="146">
+              <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#245#251#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#765#771#0" expanded="true" />
-                <element signature="e#1057#1063#0" expanded="true" />
-                <element signature="e#1354#1360#0" expanded="true" />
-                <element signature="e#1830#1831#0" expanded="true" />
-                <element signature="e#1858#1859#0" expanded="true" />
-                <element signature="e#1891#1892#0" expanded="true" />
-                <element signature="e#1920#1921#0" expanded="true" />
-                <element signature="e#1952#1953#0" expanded="true" />
-                <element signature="e#1980#1981#0" expanded="true" />
-                <element signature="e#2012#2013#0" expanded="true" />
-                <element signature="e#2040#2041#0" expanded="true" />
-                <element signature="e#2069#2070#0" expanded="true" />
-                <element signature="e#2097#2098#0" expanded="true" />
-                <element signature="e#2132#2133#0" expanded="true" />
-                <element signature="e#2163#2164#0" expanded="true" />
-                <element signature="e#2205#2206#0" expanded="true" />
-                <element signature="e#2239#2240#0" expanded="true" />
-                <element signature="e#2283#2284#0" expanded="true" />
-                <element signature="e#2319#2320#0" expanded="true" />
-                <element signature="e#2361#2362#0" expanded="true" />
-                <element signature="e#2395#2396#0" expanded="true" />
-                <element signature="e#2437#2438#0" expanded="true" />
-                <element signature="e#2471#2472#0" expanded="true" />
-                <element signature="e#2510#2511#0" expanded="true" />
-                <element signature="e#2544#2545#0" expanded="true" />
-                <element signature="e#2592#2593#0" expanded="true" />
-                <element signature="e#2632#2633#0" expanded="true" />
+                <element signature="e#1198#1199#0" expanded="true" />
+                <element signature="e#1224#1225#0" expanded="true" />
+                <element signature="e#2354#2355#0" expanded="true" />
+                <element signature="e#2634#2635#0" expanded="true" />
+                <element signature="e#2707#2708#0" expanded="true" />
+                <element signature="e#2792#2793#0" expanded="true" />
+                <element signature="e#2909#2910#0" expanded="true" />
+                <element signature="e#4149#4150#0" expanded="true" />
+                <element signature="e#4211#4212#0" expanded="true" />
+                <element signature="e#4271#4272#0" expanded="true" />
+                <element signature="e#4331#4332#0" expanded="true" />
+                <element signature="e#4388#4389#0" expanded="true" />
+                <element signature="e#4454#4455#0" expanded="true" />
+                <element signature="e#4530#4531#0" expanded="true" />
+                <element signature="e#4610#4611#0" expanded="true" />
+                <element signature="e#4686#4687#0" expanded="true" />
+                <element signature="e#4762#4763#0" expanded="true" />
+                <element signature="e#4835#4836#0" expanded="true" />
+                <element signature="e#4923#4924#0" expanded="true" />
+                <element signature="e#5002#5003#0" expanded="true" />
+                <element signature="e#5111#5112#0" expanded="true" />
+                <element signature="e#5186#5187#0" expanded="true" />
+                <element signature="e#5280#5281#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/koszyk.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -119,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="646">
               <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
               <folding>
                 <element signature="e#487#488#0" expanded="true" />
@@ -156,6 +141,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="XHTML File" />
       </list>
     </option>
   </component>
@@ -168,12 +154,13 @@
         <option value="$PROJECT_DIR$/src/Book.java" />
         <option value="$PROJECT_DIR$/web/index.xhtml" />
         <option value="$PROJECT_DIR$/src/Books.java" />
+        <option value="$PROJECT_DIR$/web/koszyk.xhtml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="409" />
-    <option name="y" value="329" />
+    <option name="x" value="173" />
+    <option name="y" value="230" />
     <option name="width" value="1327" />
     <option name="height" value="671" />
   </component>
@@ -194,12 +181,27 @@
             <path>
               <item name="lab3_zad4_webApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab3_zad4_webApp" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab3_zad4_webApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab3_zad4_webApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab3_zad4_webApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab3_zad4_webApp" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab3_zad4_webApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab3_zad4_webApp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab3_zad4_webApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -209,11 +211,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="XHTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553259454123" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553369374483" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -277,59 +289,69 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553251243613</updated>
-      <workItem from="1553251248655" duration="8195000" />
+      <workItem from="1553251248655" duration="16914000" />
+      <workItem from="1553276085652" duration="6371000" />
+      <workItem from="1553332606587" duration="11619000" />
+      <workItem from="1553362122761" duration="3811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8195000" />
+    <option name="totallyTimeSpent" value="38715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="409" y="329" width="1327" height="671" extended-state="0" />
+    <frame x="173" y="230" width="1327" height="671" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22573008" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2367798" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899627" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899627" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="JSF" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="JSF" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="646">
           <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
           <folding>
             <element signature="e#487#488#0" expanded="true" />
@@ -359,52 +381,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="69" column="107" lean-forward="true" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Books.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="146">
+          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#245#251#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#765#771#0" expanded="true" />
-            <element signature="e#1057#1063#0" expanded="true" />
-            <element signature="e#1354#1360#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
-            <element signature="e#1858#1859#0" expanded="true" />
-            <element signature="e#1891#1892#0" expanded="true" />
-            <element signature="e#1920#1921#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#1980#1981#0" expanded="true" />
-            <element signature="e#2012#2013#0" expanded="true" />
-            <element signature="e#2040#2041#0" expanded="true" />
-            <element signature="e#2069#2070#0" expanded="true" />
-            <element signature="e#2097#2098#0" expanded="true" />
-            <element signature="e#2132#2133#0" expanded="true" />
-            <element signature="e#2163#2164#0" expanded="true" />
-            <element signature="e#2205#2206#0" expanded="true" />
-            <element signature="e#2239#2240#0" expanded="true" />
-            <element signature="e#2283#2284#0" expanded="true" />
-            <element signature="e#2319#2320#0" expanded="true" />
-            <element signature="e#2361#2362#0" expanded="true" />
-            <element signature="e#2395#2396#0" expanded="true" />
-            <element signature="e#2437#2438#0" expanded="true" />
-            <element signature="e#2471#2472#0" expanded="true" />
-            <element signature="e#2510#2511#0" expanded="true" />
-            <element signature="e#2544#2545#0" expanded="true" />
-            <element signature="e#2592#2593#0" expanded="true" />
-            <element signature="e#2632#2633#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
+            <element signature="e#2634#2635#0" expanded="true" />
+            <element signature="e#2707#2708#0" expanded="true" />
+            <element signature="e#2792#2793#0" expanded="true" />
+            <element signature="e#2909#2910#0" expanded="true" />
+            <element signature="e#4149#4150#0" expanded="true" />
+            <element signature="e#4211#4212#0" expanded="true" />
+            <element signature="e#4271#4272#0" expanded="true" />
+            <element signature="e#4331#4332#0" expanded="true" />
+            <element signature="e#4388#4389#0" expanded="true" />
+            <element signature="e#4454#4455#0" expanded="true" />
+            <element signature="e#4530#4531#0" expanded="true" />
+            <element signature="e#4610#4611#0" expanded="true" />
+            <element signature="e#4686#4687#0" expanded="true" />
+            <element signature="e#4762#4763#0" expanded="true" />
+            <element signature="e#4835#4836#0" expanded="true" />
+            <element signature="e#4923#4924#0" expanded="true" />
+            <element signature="e#5002#5003#0" expanded="true" />
+            <element signature="e#5111#5112#0" expanded="true" />
+            <element signature="e#5186#5187#0" expanded="true" />
+            <element signature="e#5280#5281#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+    <entry file="file://$PROJECT_DIR$/web/koszyk.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="286">
+          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>lab3_zad4_webApp:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lab3_zad4_webApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Mojarra-2.2.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
