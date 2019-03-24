@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+   <h:head>
+
+   </h:head>
+
+<h:body>
+
+   <h:form>
+      <p>
+          <h:outputLabel value="Imie i Nazwisko: ">
+             <h:inputText id="name" value="#{SurveyLogic.name}" required="true" label="name" validatorMessage="Pole jest wymagane"/>
+          </h:outputLabel>
+         <h:message for="name" style="color:indianred"/>
+      </p>
+
+      <p>
+         <h:outputLabel value="e-mail: ">
+            <h:inputText id="email" value="#{SurveyLogic.email}" required="true" label="email" validatorMessage="#{SurveyLogic.email} nie jest poprawny">
+               <f:validateRegex pattern="[\w\.-]*[a-zA-Z0-9_]@[\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]" />
+            </h:inputText>
+         </h:outputLabel>
+         <h:message for="email" style="color:indianred"/>
+      </p>
+
+      <p>
+         <h:outputLabel value="wiek: ">
+            <h:inputText id="age" maxlength="3" value="#{SurveyLogic.age}" label="age" validatorMessage="#{SurveyLogic.age} nie jest w zakresie 10 - 100">
+               <f:validateLongRange minimum="10" maximum="100" />
+            </h:inputText>
+         </h:outputLabel>
+         <h:message for="age" style="color:indianred"/>
+      </p>
+
+      <p>
+         <h:outputLabel value="płeć: ">
+            <h:selectOneMenu value="#{SurveyLogic.sex}"  >
+
+               <f:selectItems  id="sex" value="#{SurveyLogic.sexes}" var="selected" itemLabel="#{selected}" itemValue="#{SurveyLogic}" />
+
+               <f:ajax listener="#{SurveyLogic.valueChanged(selected)}"/>
+
+            </h:selectOneMenu>
+         </h:outputLabel>
+
+      </p>
+      <p>
+         <h:outputLabel value="wzrost: " >
+            <h:inputText id="height" maxlength="3" value="#{SurveyLogic.height}" label="age"
+                         validatorMessage="#dla wybranej płci wzrost musi być w zakresie
+                         #{SurveyLogic.heightLimits[0]} - #{SurveyLogic.heightLimits[1]}">
+               <f:validateLongRange minimum="#{SurveyLogic.heightLimits[0]}" maximum="#{SurveyLogic.heightLimits[1]}" />
+            </h:inputText>
+         </h:outputLabel>
+         <h:message for="height" style="color:indianred"/>
+      </p>
+
+      <h:commandButton value="Dalej" action="#{SurveyLogic.changeContSur()}"/>
+   </h:form>
+
+
+   <h:form rendered="#{SurveyLogic.contSur}">
+      <h:form rendered="#{SurveyLogic.femAdditionalInfo}">
+         <p>
+            <h:outputLabel value="Obwód klatki piersiowej ">
+               <h:inputText id="chestcirc" value="#{SurveyLogic.chest}" required="true" label="chestcirc" validatorMessage="Pole jest wymagane">
+                  <f:validateRegex pattern="[0-9]*" />
+               </h:inputText>
+            </h:outputLabel>
+            <h:message for="chestcirc" style="color:indianred"/>
+         </p>
+         <p>
+            <h:outputLabel value="Wielkość miseczki ">
+               <h:inputText id="cupsize" value="#{SurveyLogic.cupsize}" required="true" label="cupsize" validatorMessage="Pole jest wymagane">
+                  <f:validateRegex pattern="[0-9]*" />
+               </h:inputText>
+            </h:outputLabel>
+            <h:message for="cupsize" style="color:indianred"/>
+         </p>
+         <p>
+            <h:outputLabel value="Obwód talii ">
+               <h:inputText id="waist" value="#{SurveyLogic.waist}" required="true" label="waist" validatorMessage="Pole jest wymagane">
+                  <f:validateRegex pattern="[0-9]*" />
+               </h:inputText>
+            </h:outputLabel>
+            <h:message for="waist" style="color:indianred"/>
+         </p>
+         <p>
+            <h:outputLabel value="Obwód bioder ">
+               <h:inputText id="hips" value="#{SurveyLogic.hips}" required="true" label="hips" validatorMessage="Pole jest wymagane">
+                  <f:validateRegex pattern="[0-9]*" />
+               </h:inputText>
+            </h:outputLabel>
+            <h:message for="hips" style="color:indianred"/>
+         </p>
+
+      </h:form>
+
+      <h:form rendered="#{SurveyLogic.malAdditionalInfo}">
+         <p>
+            <h:outputLabel value="Obwód w pasie ">
+               <h:inputText id="waistSize" value="#{SurveyLogic.waistSize}" required="true" label="waistSize" validatorMessage="Pole jest wymagane">
+                  <f:validateRegex pattern="[0-9]*" />
+               </h:inputText>
+            </h:outputLabel>
+            <h:message for="waistSize" style="color:indianred"/>
+         </p>
+         <p>
+            <h:outputLabel value="Obwód Klatki piersiowej ">
+               <h:inputText id="chest" value="#{SurveyLogic.hips}" required="true" label="chest" validatorMessage="Pole jest wymagane">
+                  <f:validateRegex pattern="[0-9]*" />
+               </h:inputText>
+            </h:outputLabel>
+            <h:message for="chest" style="color:indianred"/>
+         </p>
+      </h:form>
+      <p>
+         <h:outputLabel value="Ile jesteś w stanie przeznaczyc miesięcznie na zakup ubrania? ">
+            <h:selectOneMenu value="#{SurveyLogic.potentialExp}"  >
+
+               <f:selectItem itemValue="100" itemLabel="do 100zł"/>
+               <f:selectItem itemValue="100-500" itemLabel="100-500zł"/>
+               <f:selectItem itemValue="500-1000" itemLabel="500-1000zł"/>
+               <f:selectItem itemValue="1000" itemLabel="powyżej 1000zł"/>
+
+            </h:selectOneMenu>
+         </h:outputLabel>
+
+      </p>
+
+      <p>
+         <h:outputLabel value="Jak często dokonujesz zakupu ubrania? ">
+            <h:selectOneMenu value="#{SurveyLogic.buyingFreq}"  >
+
+               <f:selectItem itemValue="tyg" itemLabel="Raz w tygodniu"/>
+               <f:selectItem itemValue="mies" itemLabel="Raz w miesiącu"/>
+               <f:selectItem itemValue="rok" itemLabel="Kilka razy w roku"/>
+
+            </h:selectOneMenu>
+         </h:outputLabel>
+      </p>
+      <p>
+         <h:outputLabel value="W jakich kolorach preferujesz ubrania? ">
+            <h:selectManyCheckbox value="#{SurveyLogic.col}">
+               <f:selectItem itemValue="kol" itemLabel="Kolorowo-jaskrawych"/>
+               <f:selectItem itemValue="szar" itemLabel="Stonowanych w szarościach"/>
+               <f:selectItem itemValue="czb" itemLabel="W czerni i bieli"/>
+               <f:selectItem itemValue="cz" itemLabel="W samej czerni"/>
+
+            </h:selectManyCheckbox>
+
+         </h:outputLabel>
+
+      </p>
+      <p>
+         <h:outputLabel value="Jakiego rodzaju ubrania najchętniej kupujesz? ">
+            <h:selectManyCheckbox value="#{SurveyLogic.preferences}"  >
+
+               <f:selectItems  value="#{SurveyLogic.getSexPreferences()}" var="selected" itemLabel="#{selected}" itemValue="#{SurveyLogic}"/>
+
+            </h:selectManyCheckbox>
+         </h:outputLabel>
+
+      </p>
+
+      <h:commandButton value="Wyślij" action="="/>
+
+
+   </h:form>
+
+</h:body>
+</html>
