@@ -1,13 +1,12 @@
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+import javax.faces.bean.SessionScoped;
 import javax.faces.bean.ViewScoped;
-import javax.faces.event.AjaxBehaviorEvent;
-import javax.faces.event.ValueChangeEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
 
 @ManagedBean(name = "SurveyLogic")
-@ViewScoped
+@SessionScoped
 public class SurveyLogic {
 
     private String name;
@@ -25,10 +24,10 @@ public class SurveyLogic {
     private String potentialExp;
     private String buyingFreq;
     private String[] col = {};
-    private String[] Preferences={};
+    private String[] preferences ={};
 
     private double chestCirc;
-    private double cupsize;
+    private String cupsize;
     private double waist;
     private double hips;
 
@@ -40,12 +39,12 @@ public class SurveyLogic {
 
     public void valueChanged(String selected){
         System.out.println(selected);
-        this.servSex(selected);
+        this.servSex();
 
     }
 
-    public void servSex(String sex){
-        this.setSex(sex);
+    public void servSex(){
+
         if(sex.equals("male")){
             this.changeMalAdditionalInfo();
         }else {
@@ -63,11 +62,11 @@ public class SurveyLogic {
     }
 
     public String[] getPreferences() {
-        return Preferences;
+        return preferences;
     }
 
     public void setPreferences(String[] preferences) {
-        Preferences = preferences;
+        this.preferences = preferences;
     }
 
     public ArrayList<String> getSexPreferences(){
@@ -83,6 +82,7 @@ public class SurveyLogic {
     }
 
     public void changeContSur(){
+        valueChanged(sex);
         this.contSur = true;
     }
 
@@ -172,8 +172,11 @@ public class SurveyLogic {
         this.email = email;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setAge(String age) {
+        this.age = Integer.parseInt(age);
+    }
+    public void setAge(int age){
+        this.age=age;
     }
 
     public void setSex(String sex) {
@@ -188,51 +191,51 @@ public class SurveyLogic {
         this.height = height;
     }
 
-    public double getChestCirc() {
-        return chestCirc;
+    public String getChestCirc() {
+        return Double.toString(chestCirc);
     }
 
     public void setChestCirc(double chestCirc) {
         this.chestCirc = chestCirc;
     }
 
-    public double getCupsize() {
+    public String getCupsize() {
         return cupsize;
     }
 
-    public void setCupsize(double cupsize) {
+    public void setCupsize(String cupsize) {
         this.cupsize = cupsize;
     }
 
-    public double getWaist() {
-        return waist;
+    public String getWaist() {
+        return Double.toString(waist);
     }
 
-    public void setWaist(double waist) {
-        this.waist = waist;
+    public void setWaist(String waist) {
+        this.waist = Double.parseDouble(waist);
     }
 
-    public double getHips() {
-        return hips;
+    public String getHips() {
+        return Double.toString(hips);
     }
 
-    public void setHips(double hips) {
-        this.hips = hips;
+    public void setHips(String hips) {
+        this.hips = Double.parseDouble(hips);
     }
 
-    public double getChest() {
-        return chest;
+    public String getChest() {
+        return Double.toString(chest);
     }
 
-    public void setChest(double chest) {
-        this.chest = chest;
+    public void setChest(String chest) {
+        this.chest = Double.parseDouble(chest);
     }
 
-    public double getWaistSize() {
-        return waistSize;
+    public String getWaistSize() {
+        return Double.toString(waistSize);
     }
 
-    public void setWaistSize(double waistSize) {
-        this.waistSize = waistSize;
+    public void setWaistSize(String waistSize) {
+        this.waistSize = Double.parseDouble(waistSize);
     }
 }

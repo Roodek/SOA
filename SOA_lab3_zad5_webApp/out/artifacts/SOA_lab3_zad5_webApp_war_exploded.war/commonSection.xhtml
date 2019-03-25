@@ -8,7 +8,35 @@
 <h:head>
 
 </h:head>
+Dane podane przez użytkownika:<br/>
+Imie i nazwisko: #{SurveyLogic.name}<br/>
+Wiek: #{SurveyLogic.age}<br/>
+Płeć: #{SurveyLogic.sex}<br/>
+Wzrost: #{SurveyLogic.height}<br/>
+<f:subview id="female" rendered="#{SurveyLogic.femAdditionalInfo}">
+    Obwód klatki piersiowej: #{SurveyLogic.chest}<br/>
+    Rozmiar miseczki: #{SurveyLogic.cupsize}<br/>
+    Obwód talii: #{SurveyLogic.waist}<br/>
+    Obwód bioder: #{SurveyLogic.hips}<br/>
 
+</f:subview>
+<f:subview id="male" rendered="#{SurveyLogic.malAdditionalInfo}">
+    Obwód klatki piersiowej: #{SurveyLogic.chestCirc}<br/>
+    Obwód w pasie: #{SurveyLogic.waistSize}<br/>
+
+</f:subview>
+
+Ile jesteś w stanie wydać na ubrania miesięcznie: #{SurveyLogic.potentialExp}<br/>
+Jak często kupujesz ubrania #{SurveyLogic.buyingFreq}<br/>
+
+Jakie kolory preferujesz: <br/>
+<ui:repeat value="#{SurveyLogic.col}" var="col">
+    - #{col}<br/>
+</ui:repeat>
+Jakie ubrania preferujesz:<br/>
+<ui:repeat value="#{SurveyLogic.preferences}" var="preferences">
+    - #{preferences}<br/>
+</ui:repeat>
 <h:body>
 
 
