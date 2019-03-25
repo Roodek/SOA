@@ -26,14 +26,11 @@ public class Books implements Serializable {
     public ArrayList<Book> trolley  = new ArrayList<Book>();
 
     public static final ArrayList<Book> bookList
-            = new ArrayList<Book>(Arrays.asList(new Book("Krzyżacy","Henryk Sienkiewicz","Przygodowa", 30,551, "PLN"),
-            new Book("Lalka","Bolesław Prus","Obyczajowa",40,912,"PLN"),
-            new Book("Fahrenheit 451","Ray Bradburry","Science-fiction",8,256,"USD"),
-            new Book("Hobbit","J.R.Tolkien","Fantasy",20, 315,"PLN")
-    ));
+            = BookStore.getBooks();
+
     public ArrayList<Book> filteredBooks = bookList;
 
-    public  boolean getDisplayCurr(){
+    public boolean getDisplayCurr(){
         return this.displayCurr;
     }
     public void swapDisplayCurr(){

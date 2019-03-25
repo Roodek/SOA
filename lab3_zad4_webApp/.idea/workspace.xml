@@ -7,13 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faaa7617-65a7-465c-bdc1-f41bc4c088df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_zad4_webApp/.idea/libraries/javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_zad4_webApp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_zad4_webApp/src/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_zad4_webApp/src/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_zad4_webApp/src/FilterView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_primefaces_primefaces_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/koszyk.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab3_zad4_webApp/.idea/libraries/javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab3_zad4_webApp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab3_zad4_webApp/src/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab3_zad4_webApp/src/CarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab3_zad4_webApp/src/FilterView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab3_zad5_webApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_zad5_webApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4_zad1/ejb3-server-api/.idea/artifacts/ejb3_server_api_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4_zad1/ejb3-server-api/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4_zad1/ejb3-server-api/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4_zad1/ejb3-server-api/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4_zad1/ejb3-server-api/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4_zad1/ejb3-server-api/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4_zad1/ejb3-server-api/src/ItestAddBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab4_zad1/ejb3-server-api/src/ItestAddBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4_zad1/ejb3-server-api/src/ejbApi/ILocalTestBeanCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4_zad1/ejb3-server-api/src/ejbApi/IRemoteTestBeanCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4_zad1/ejb3-server-api/src/ejbApi/ITestBeanCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4_zad1/ejb3-server-impl/.idea/libraries/src.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4_zad1/ejb3-server-impl/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4_zad1/ejb3-server-impl/src/TextAddBean.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SOA_lab_3_zad1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SOA_lab_3_zad1/out/artifacts/SOA_lab_3_zad1_war_exploded.war/WEB-INF/classes/Losowanie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/out/artifacts/SOA_lab_3_zad1_war_exploded.war/WEB-INF/classes/Losowanie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SOA_lab_3_zad1/out/artifacts/SOA_lab_3_zad1_war_exploded.war/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/out/artifacts/SOA_lab_3_zad1_war_exploded.war/index.xhtml" afterDir="false" />
@@ -23,12 +36,8 @@
       <change beforePath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/index.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/trafiony.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab_3_zad1/web/trafiony.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3_zad4_webApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab3_zad4_webApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lab3_zad4_webApp_war_exploded.war/WEB-INF/classes/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab3_zad4_webApp_war_exploded.war/WEB-INF/classes/Books.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lab3_zad4_webApp_war_exploded.war/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lab3_zad4_webApp_war_exploded.war/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3_zad4_webApp/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_zad4_webApp/Books.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/koszyk.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/koszyk.xhtml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,52 +51,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="69" column="107" lean-forward="true" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Books.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#2354#2355#0" expanded="true" />
-                <element signature="e#2634#2635#0" expanded="true" />
-                <element signature="e#2707#2708#0" expanded="true" />
-                <element signature="e#2792#2793#0" expanded="true" />
-                <element signature="e#2909#2910#0" expanded="true" />
-                <element signature="e#4149#4150#0" expanded="true" />
-                <element signature="e#4211#4212#0" expanded="true" />
-                <element signature="e#4271#4272#0" expanded="true" />
-                <element signature="e#4331#4332#0" expanded="true" />
-                <element signature="e#4388#4389#0" expanded="true" />
-                <element signature="e#4454#4455#0" expanded="true" />
-                <element signature="e#4530#4531#0" expanded="true" />
-                <element signature="e#4610#4611#0" expanded="true" />
-                <element signature="e#4686#4687#0" expanded="true" />
-                <element signature="e#4762#4763#0" expanded="true" />
-                <element signature="e#4835#4836#0" expanded="true" />
-                <element signature="e#4923#4924#0" expanded="true" />
-                <element signature="e#5002#5003#0" expanded="true" />
-                <element signature="e#5111#5112#0" expanded="true" />
-                <element signature="e#5186#5187#0" expanded="true" />
-                <element signature="e#5280#5281#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="116">
+              <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Books.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/koszyk.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+            <state relative-caret-position="483">
+              <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BookStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
+            <state relative-caret-position="493">
               <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
               <folding>
                 <element signature="e#487#488#0" expanded="true" />
@@ -140,8 +138,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="XHTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -153,14 +151,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/Book.java" />
         <option value="$PROJECT_DIR$/web/index.xhtml" />
-        <option value="$PROJECT_DIR$/src/Books.java" />
         <option value="$PROJECT_DIR$/web/koszyk.xhtml" />
+        <option value="$PROJECT_DIR$/src/BookStore.java" />
+        <option value="$PROJECT_DIR$/src/Books.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="173" />
-    <option name="y" value="230" />
+    <option name="x" value="60" />
+    <option name="y" value="106" />
     <option name="width" value="1327" />
     <option name="height" value="671" />
   </component>
@@ -218,14 +217,14 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553369374483" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553518183737" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -293,17 +292,20 @@
       <workItem from="1553276085652" duration="6371000" />
       <workItem from="1553332606587" duration="11619000" />
       <workItem from="1553362122761" duration="3811000" />
+      <workItem from="1553418849288" duration="2746000" />
+      <workItem from="1553504036121" duration="2117000" />
+      <workItem from="1553517259689" duration="41000" />
+      <workItem from="1553517332364" duration="785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38715000" />
+    <option name="totallyTimeSpent" value="44404000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="173" y="230" width="1327" height="671" extended-state="0" />
-    <editor active="true" />
+    <frame x="60" y="106" width="1327" height="671" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2367798" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25256512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -313,7 +315,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899627" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899627" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,7 +353,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
+        <state relative-caret-position="493">
           <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
           <folding>
             <element signature="e#487#488#0" expanded="true" />
@@ -383,48 +385,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="69" column="107" lean-forward="true" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Books.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#2354#2355#0" expanded="true" />
-            <element signature="e#2634#2635#0" expanded="true" />
-            <element signature="e#2707#2708#0" expanded="true" />
-            <element signature="e#2792#2793#0" expanded="true" />
-            <element signature="e#2909#2910#0" expanded="true" />
-            <element signature="e#4149#4150#0" expanded="true" />
-            <element signature="e#4211#4212#0" expanded="true" />
-            <element signature="e#4271#4272#0" expanded="true" />
-            <element signature="e#4331#4332#0" expanded="true" />
-            <element signature="e#4388#4389#0" expanded="true" />
-            <element signature="e#4454#4455#0" expanded="true" />
-            <element signature="e#4530#4531#0" expanded="true" />
-            <element signature="e#4610#4611#0" expanded="true" />
-            <element signature="e#4686#4687#0" expanded="true" />
-            <element signature="e#4762#4763#0" expanded="true" />
-            <element signature="e#4835#4836#0" expanded="true" />
-            <element signature="e#4923#4924#0" expanded="true" />
-            <element signature="e#5002#5003#0" expanded="true" />
-            <element signature="e#5111#5112#0" expanded="true" />
-            <element signature="e#5186#5187#0" expanded="true" />
-            <element signature="e#5280#5281#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="116">
+          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/koszyk.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+        <state relative-caret-position="483">
+          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BookStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Books.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -482,12 +471,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>lab3_zad4_webApp</last-edited>
+          <last-edited>Web|lab3_zad4_webApp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
